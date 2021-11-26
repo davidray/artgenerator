@@ -397,6 +397,18 @@ const startCreating = async () => {
 							hashlipsGiffer.add();
 						}
 					});
+					addText(
+						"Potorazzi #" + editionCount,
+						text.xGap,
+						text.yGap,
+						text.size,
+					);
+					addText(
+						"by Jake, Jasper, and Bryan Mark Taylor",
+						text.xGap,
+						text.yGap * 2,
+						text.size * 0.5,
+					);
 					if (gif.export) {
 						hashlipsGiffer.stop();
 					}
