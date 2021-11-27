@@ -9,9 +9,10 @@ const { NETWORK } = require(path.join(basePath, "constants/network.js"));
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Potates of the Mediterranean";
-const description = "A bunch of potates visit sites in the Mediterranean";
-const baseUri = "ipfs://potatesofthemediterranean";
+const namePrefix = "Potorazzi";
+const description =
+	"A potato with an eclectic fashion sense visits the intriguing landscapes of world-renown plein air artist Bryan Mark Taylor.";
+const baseUri = "ipfs://QmVXDRATcYe4AHsUf3A7yRvAJBon7M38TDG5Tus9pzSpDc";
 
 const solanaMetadata = {
 	symbol: "YC",
